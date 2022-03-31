@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce product page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <header><h1>sneakers </h1></header>
+        <div class="links">
+            <a href="#">Collections</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a> 
+        </div> 
+        <div class="profile">
+            <img src="./images/image-avatar.png" alt="">
+            <div class="products">
+                <a id = 'cart' href="#"><img src="./images/icon-cart.svg" alt=""></a>
+                <div class="cart-info">
+                    <div class = cartarray>
+                        <h1>Cart</h1>
+                        <hr>
+                        <img id = 'poh' src="./images/image-product-1-thumbnail.jpg" alt="90px" width = '90px'> 
+                        <p id = 'cartarr'></p>
+                        <button id = 'check'>Check out </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="image">
+            <div class="main-image">
+                <img src="./images/image-product-1.jpg" alt="700px" height="700px">
+            </div>
+            <div class="sub-images">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="150px" height="150px"><img src="./images/image-product-2-thumbnail.jpg" alt="150px" height="150px"><img src="./images/image-product-3-thumbnail.jpg" alt="150px" height="150px"><img src="./images/image-product-4-thumbnail.jpg" alt="150px" height="150px">
+            </div>
+        </div>
+        <div class="description">
+            <header id = 'company-name'>SNEAKER COMPANY</header>
+            <p><h1>Fall Limited Edition Sneakers</h1></p>
+            <div id = 'desc'><p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p></div>
+            <p id = 'price'>$125.00</p>
+            <p id = 'old-price'>$250.00</p>
+            <div class="add">
+                <button id = 'minus'><img src="./images/icon-minus.svg" alt="">
+                </button><p id = 'display'>0</p>
+                <button id = 'plus'><img src="./images/icon-plus.svg" alt=""></button>
+            </div>
+            <button id = 'add-to-cart'><img src="./images/icon-cart.svg" alt="">Add to cart</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
